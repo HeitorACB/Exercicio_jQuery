@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(232, 227, 227);
+    } 
+    
+    ul {
+        padding: 12px;
+    }
+
+    .cabecalho {
+        height: 100px;
+        margin-top: 70px;
+    } 
+
+    input {
+        font-size: 20px;
+    }
+
+    button {
+        margin-left: 15px;
+        font-size: 20px;
+    }
+
+ul {
+    flex-direction: column;
+}
+
+.tarefa-concluida {
+    text-decoration: line-through;
+}
+
+li{
+    cursor: pointer;
+}
